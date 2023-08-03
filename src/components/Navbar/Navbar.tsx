@@ -3,7 +3,10 @@ import "./Navbar.scss";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo">Lucoum</div>
+      <div className="logo">
+        <h1>Lucoum</h1>
+        <p>Sience & Hypertrophie</p>
+      </div>
       <ul className="nav-items">
         <li>Accueil</li>
         <li>Programmes</li>
