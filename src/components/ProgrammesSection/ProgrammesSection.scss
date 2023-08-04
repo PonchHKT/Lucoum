@@ -1,0 +1,60 @@
+.Programmes {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+
+  .Programmes_Container {
+    display: flex;
+    gap: 50px;
+    max-width: 1200px; /* Limit the width of the container */
+
+    .Programmes_Left {
+      flex: 1; /* Take up all the available space */
+      box-sizing: border-box;
+      align-items: center;
+
+      h3 {
+        font-size: 27px;
+        font-weight: bold;
+      }
+
+      p {
+        font-size: 18px;
+        margin-top: 20px;
+
+        i {
+          margin-left: 5px;
+          color: var(--primary-blue);
+          font-weight: bold;
+        }
+      }
+
+      button {
+        margin-top: 20px;
+        padding: 8px 20px;
+        font-size: 16px;
+        background-color: var(--primary-blue);
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+    }
+
+    .Programmes_Right {
+      flex: 1; /* Take up all the available space */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 100%; /* Make the image take up all the space */
+        max-height: 100%; /* Maintain aspect ratio */
+        border-radius: 20px;
+      }
+    }
+  }
+}

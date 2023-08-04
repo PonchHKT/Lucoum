@@ -1,0 +1,35 @@
+// Footer.scss
+.Footer_Container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #007bff; /* Primary blue background color */
+  color: #fff; /* Text color for the footer */
+
+  a {
+    text-decoration: none;
+    color: #fff; /* Link text color */
+    margin: 5px 0;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.Footer_Left {
+  cursor: pointer;
+  display: flex;
+  gap: 50px;
+  padding-left: 30px;
+}
+
+.Footer_Right {
+  padding-right: 30px;
+  p {
+    margin: 0;
+    cursor: pointer;
+  }
+}

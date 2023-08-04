@@ -1,0 +1,56 @@
+.Review_Container {
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  align-items: center;
+  gap: 20px; /* Add gap between stars and content */
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; /* Add your desired background color */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  height: 500px;
+  width: 80%;
+}
+
+.Review_Stars {
+  gap: 7px;
+  font-size: 60px; /* Increased font size for stars */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  i {
+    margin-right: 5px;
+    color: #007bff; /* Initial blue color for the stars */
+    transition: color 0.3s ease; /* Add a transition to the stars */
+  }
+}
+
+.Review_Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  button {
+    padding: 8px 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; /* Primary blue color for the button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+}
