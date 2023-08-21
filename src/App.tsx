@@ -1,9 +1,8 @@
 import "./App.css";
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
 import * as Routes from "@/constants/routes";
 import Home from "@/pages/Home";
+import Programmes from "@/pages/Programmes";
 
 const App = () => {
   const BrowserRouter = createBrowserRouter(
@@ -11,6 +10,11 @@ const App = () => {
       {
         path: Routes.HOME,
         element: <Home />,
+        caseSensitive: true,
+      },
+      {
+        path: Routes.PROGRAMMES,
+        element: <Programmes />,
         caseSensitive: true,
       },
     ],

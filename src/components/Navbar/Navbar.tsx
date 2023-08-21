@@ -8,12 +8,24 @@ const Navbar = () => {
         <p>Sience & Hypertrophie</p>
       </div>
       <ul className="nav-items">
-        <li>Accueil</li>
-        <li>Programmes</li>
-        <li>Qui suis-je ?</li>
-        <li>FAQ</li>
-        <li>Réseaux sociaux</li>
-        <li>Avis</li>
+        <li>
+          <a href="/">Accueil</a>
+        </li>
+        <li>
+          <a href="/programmes">Programmes</a>
+        </li>
+        <li>
+          <a href="/lucoum">Qui suis-je ?</a>
+        </li>
+        <li>
+          <a href="/faq">FAQ</a>
+        </li>
+        <li>
+          <a href="/socials">Réseaux sociaux</a>
+        </li>
+        <li>
+          <a href="/avis">Avis</a>
+        </li>
       </ul>
       <button className="login-btn">Se connecter</button>
     </nav>
