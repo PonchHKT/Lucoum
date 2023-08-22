@@ -1,0 +1,65 @@
+.Header {
+  padding-top: 50px;
+  display: flex;
+  margin-top: 50px;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  color: black;
+  background-color: #f7f7f7;
+  .Container {
+    display: flex;
+
+    max-width: 3000px; /* Limit the width of the container */
+
+    .Programmes_Left {
+      width: 50%; /* Take up all the available space */
+      box-sizing: border-box;
+      align-items: center;
+
+      h3 {
+        font-size: 27px;
+        font-weight: bold;
+        padding-bottom: 15px;
+      }
+
+      p {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 5px;
+
+        i {
+          margin-right: 5px;
+          color: var(--primary-blue);
+          font-weight: bold;
+        }
+      }
+
+      button {
+        margin-top: 30px;
+        padding: 8px 20px;
+        font-size: 16px;
+        background-color: var(--primary-blue);
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+    }
+
+    .Programmes_Right {
+      width: 50%; /* Take up all the available space */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 100%; /* Make the image take up all the space */
+        max-height: 100%; /* Maintain aspect ratio */
+        border-radius: 20px;
+      }
+    }
+  }
+}

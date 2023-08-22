@@ -1,11 +1,11 @@
 import Navbar from "../../components/Navbar/Navbar";
 import ReactPlayer from "react-player";
 import "./Home.scss";
-import ProgrammesSection from "@/components/ProgrammesSection/ProgrammesSection";
+import ProgrammesSection from "@/components/Home/ProgrammesSection/ProgrammesSection";
 import ProgrammesImage from "@/assets/images/Home/ProgrammesExercices.png";
-import CardBlueBackground from "@/components/CardBlueBackgroundSection/CardBlueBackgroundSection";
-import Header from "@/components/Header/Header";
-import ReviewSection from "@/components/ReviewSection/ReviewSection";
+import CardBlueBackground from "@/components/Home/CardBlueBackgroundSection/CardBlueBackgroundSection";
+import Header from "@/components/Home/Header/Header";
+import ReviewSection from "@/components/Home/ReviewSection/ReviewSection";
 import Footer from "@/components/Footer/Footer";
 
 function Home() {
