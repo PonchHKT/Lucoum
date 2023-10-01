@@ -2,7 +2,9 @@ import Navbar from "../../components/Navbar/Navbar";
 import ReactPlayer from "react-player";
 import "./Home.scss";
 import ProgrammesSection from "@/components/Home/ProgrammesSection/ProgrammesSection";
+
 import ProgrammesImage from "@/assets/images/Home/ProgrammesExercices.png";
+import Quiestlucoum from "@/assets/images/Home/QuiEstLucoum.png";
 import CardBlueBackground from "@/components/Home/CardBlueBackgroundSection/CardBlueBackgroundSection";
 import Header from "@/components/Home/Header/Header";
 import ReviewSection from "@/components/Home/ReviewSection/ReviewSection";
@@ -39,7 +41,7 @@ function Home() {
           title="Qui est LUCOUM ?"
           description="Je m'appelle Lucas enchanté et bienvenue. Je suis diplômé d'un DEUST métier de la forme et je suis passionné de musculation depuis maintenant 6 ans."
           buttonText="En savoir plus sur moi"
-          imageUrl={ProgrammesImage}
+          imageUrl={Quiestlucoum}
           showSocialLogos={true}
         />
 

@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import * as Routes from "@/constants/routes";
 import Home from "@/pages/Home";
 import Programmes from "@/pages/Programmes";
+import Lucoum from "@/pages/Lucoum";
 
 const App = () => {
   const BrowserRouter = createBrowserRouter(
@@ -15,6 +16,11 @@ const App = () => {
       {
         path: Routes.PROGRAMMES,
         element: <Programmes />,
+        caseSensitive: true,
+      },
+      {
+        path: Routes.LUCOUM,
+        element: <Lucoum />,
         caseSensitive: true,
       },
     ],

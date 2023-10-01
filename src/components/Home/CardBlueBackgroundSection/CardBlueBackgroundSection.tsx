@@ -35,9 +35,7 @@ const CardBlueBackground: React.FC<CardBlueBackgroundProps> = ({
           {showNumberedDescriptions && (
             <>
               {numberedDescriptions.map((item, index) => (
-                <p key={index}>
-                  <i className="fas fa-hand-point-right"></i> {item}
-                </p>
+                <p key={index}>► {item}</p>
               ))}
             </>
           )}

@@ -4,10 +4,11 @@ import Header from "@/components/Programmes/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import CardBlueBackground from "@/components/Home/CardBlueBackgroundSection/CardBlueBackgroundSection";
 import ProgrammesPerso from "@/assets/images/Programmes/ProgrammesPerso.png";
+import Warning from "@/components/Programmes/Warning/Warning";
 
 function Programmes() {
   return (
-    <div className="Programmes">
+    <div className="Programme">
       <Navbar />
       <Header />
       <CardBlueBackground
@@ -15,17 +16,18 @@ function Programmes() {
         title="Obtient ta Vidéo Personnalisée"
         buttonText="Obtient ton Programme"
         imageUrl={ProgrammesPerso}
-        showSocialLogos={true}
+        showSocialLogos={false}
         showDescription={false} // You can change this to false to hide the description
         showNumberedDescriptions={true} // You can change this to false to hide the numbered descriptions
         numberedDescriptions={[
-          "Description 1",
-          "Description 2",
-          "Description 3",
-          "Description 4",
-          "Description 5",
+          "Sur Youtube en non répertorié",
+          "Toutes les Informations dont tu as besoin",
+          "Ton Programme Final par Mail",
+          "Un Suivi pour toutes tes questions",
+          "Date précise du programme corrigé",
         ]}
       />
+      <Warning />
       <Footer />
     </div>
   );

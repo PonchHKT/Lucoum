@@ -1,0 +1,20 @@
+.Warning {
+  background-color: #f7f7f7;
+  color: black;
+  display: flex;
+  width: 100vw;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  .Warning_Logo {
+    font-size: 150px;
+    color: var(--primary-blue);
+  }
+  .Warning_Text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
