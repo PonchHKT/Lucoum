@@ -1,0 +1,14 @@
+.Lucoum {
+  display: block;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  &_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+    color: #000;
+  }
+}

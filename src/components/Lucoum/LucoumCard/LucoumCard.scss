@@ -1,0 +1,35 @@
+.PresentationLucoum {
+  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Adjust horizontal padding as needed */
+
+  .LucoumContent {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    .LucoumImage {
+      width: 100%;
+      max-width: 600px; /* Adjust the maximum width as needed */
+      overflow: hidden;
+
+      img {
+        display: block;
+        border-radius: 20px;
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .LucoumText {
+      width: 50%;
+      max-width: 800px; /* Adjust the maximum width as needed */
+      color: white;
+      font-size: 20px;
+      p {
+        font-weight: 500;
+      }
+    }
+  }
+}
